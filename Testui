@@ -11,7 +11,7 @@ MODILEMAGE.BackgroundTransparency = 1.000
 MODILEMAGE.BorderSizePixel = 0
 MODILEMAGE.Position = UDim2.new(0.234619886, 0, 0.239034846, 0)
 MODILEMAGE.Size = UDim2.new(0, 30, 0, 30)
-MODILEMAGE.Image = "rbxassetid://7743870134"
+MODILEMAGE.Image = "rbxassetid://15984289117"
 WarpNero.Name = "WarpNero"
 WarpNero.Parent = game.CoreGui
 WarpNero.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -23,7 +23,7 @@ MODILEGUISOMEXHUB.BorderSizePixel = 0
 MODILEGUISOMEXHUB.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 MODILEGUISOMEXHUB.Size = UDim2.new(0, 55, 0, 55)
 MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
-MODILEGUISOMEXHUB.Text = "MTX"
+MODILEGUISOMEXHUB.Text = ""
 MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(153, 51, 255)
 MODILEGUISOMEXHUB.TextSize = 20.000
 MODILEGUISOMEXHUB.Draggable = true
@@ -42,9 +42,9 @@ function notify(MetatronX,title,description,icon,color)
       Icon = icon
   }
 end
-notify("MTX Hub  ","  Initiating","Loading MTX Hub!",7743870134,"99, 0, 255")
+notify("MTX Hub  ","  Initiating","Loading MTX Hub!",15984289117,"99, 0, 255")
 local Window = Fluent:CreateWindow({
-  Title = "🥋 MTX HUB | Blox Fruit V2 👑 ",
+  Title = "KZ HUB | Blox Fruit V2 👑 ",
   SubTitle = "By> Metatron | Mark: MARK 🐻#8145",
   TabWidth = 160,
   Size = UDim2.fromOffset(500, 320),
@@ -141,7 +141,6 @@ task.spawn(function()
 							_G.SelectWeapon = v.Name
 						end
 					end
-				end
 			elseif _G.SelectWeapon == "Gun" then
 				for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 					if v.ToolTip == "Gun" then
