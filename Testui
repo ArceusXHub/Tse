@@ -1,35 +1,3 @@
-local WarpNero = Instance.new("ScreenGui")
-local MODILEGUISOMEXHUB = Instance.new("TextButton")
-local MODILEGUISOMEXHUBHUI = Instance.new("UICorner")
-local MODILEMAGE = Instance.new("ImageLabel")
-MODILEGUISOMEXHUBHUI.Name = "MODILEGUISOMEXHUBHUI"
-MODILEGUISOMEXHUBHUI.Parent = MODILEGUISOMEXHUB
-MODILEMAGE.Name = "MODILEMAGE"
-MODILEMAGE.Parent = MODILEGUISOMEXHUB
-MODILEMAGE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MODILEMAGE.BackgroundTransparency = 1.000
-MODILEMAGE.BorderSizePixel = 0
-MODILEMAGE.Position = UDim2.new(0.234619886, 0, 0.239034846, 0)
-MODILEMAGE.Size = UDim2.new(0, 30, 0, 30)
-MODILEMAGE.Image = "rbxassetid://15984289117"
-WarpNero.Name = "WarpNero"
-WarpNero.Parent = game.CoreGui
-WarpNero.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-MODILEGUISOMEXHUB.Name = "MODILEGUISOMEXHUB"
-MODILEGUISOMEXHUB.Parent = WarpNero
-MODILEGUISOMEXHUB.BackgroundColor3 = Color3.fromRGB(30,20,20)
-MODILEGUISOMEXHUB.BackgroundTransparency = 0.1
-MODILEGUISOMEXHUB.BorderSizePixel = 0
-MODILEGUISOMEXHUB.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
-MODILEGUISOMEXHUB.Size = UDim2.new(0, 55, 0, 55)
-MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
-MODILEGUISOMEXHUB.Text = "."
-MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(00, 00, 00)
-MODILEGUISOMEXHUB.TextSize = 0.01
-MODILEGUISOMEXHUB.Draggable = true
-MODILEGUISOMEXHUB.MouseButton1Click:Connect(function()
-Fluent.Window:Minimize()
-end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
