@@ -23,9 +23,9 @@ MODILEGUISOMEXHUB.BorderSizePixel = 0
 MODILEGUISOMEXHUB.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 MODILEGUISOMEXHUB.Size = UDim2.new(0, 55, 0, 55)
 MODILEGUISOMEXHUB.Font = Enum.Font.SourceSans
-MODILEGUISOMEXHUB.Text = ""
-MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(153, 51, 255)
-MODILEGUISOMEXHUB.TextSize = 20.000
+MODILEGUISOMEXHUB.Text = "."
+MODILEGUISOMEXHUB.TextColor3 = Color3.fromRGB(00, 00, 00)
+MODILEGUISOMEXHUB.TextSize = 0.01
 MODILEGUISOMEXHUB.Draggable = true
 MODILEGUISOMEXHUB.MouseButton1Click:Connect(function()
 Fluent.Window:Minimize()
@@ -44,7 +44,7 @@ function notify(MetatronX,title,description,icon,color)
 end
 notify("MTX Hub  ","  Initiating","Loading MTX Hub!",15984289117,"99, 0, 255")
 local Window = Fluent:CreateWindow({
-  Title = "KZ HUB | Blox Fruit V2 👑 ",
+  Title = "KZ HUB | Blox Fruit SEL",
   SubTitle = "By> Metatron | Mark: MARK 🐻#8145",
   TabWidth = 160,
   Size = UDim2.fromOffset(500, 320),
